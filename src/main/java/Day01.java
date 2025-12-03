@@ -37,7 +37,7 @@ public class Day01 {
             System.out.println("passwordPart2: " + passwordPart2); // Output for input.txt is 6768
 
             System.out.println("END PART2");
-        } catch (IOException e) {
+        } catch (Exception e) {
             System.err.println("Error reading input file: " + e.getMessage());
             e.printStackTrace();
         }
